@@ -264,18 +264,24 @@ export default function InvestorPage() {
 
         {/* Investor Fit Section */}
         <section className="py-24">
-          <div className="container">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">Investor Fit</h2>
-              <p className="text-xl mb-12">
-                You understand the speed of reputation damage — and the value of proactive protection.
-              </p>
-              <Button size="lg" className="gap-2 text-xl px-10 py-8 bg-[#0087C7] hover:bg-[#0087C7]/90 text-white">
-                Request the Deck <ArrowRight className="h-5 w-5" />
-              </Button>
-            </div>
-          </div>
-        </section>
+  <div className="container">
+    <div className="max-w-3xl mx-auto text-center">
+      <h2 className="text-3xl font-bold mb-6">Investor Fit</h2>
+      <p className="text-xl mb-12">
+        You understand the speed of reputation damage — and the value of proactive protection.
+      </p>
+      <Button 
+        asChild
+        size="lg" 
+        className="gap-2 text-xl px-10 py-8 bg-[#0087C7] hover:bg-[#0087C7]/90 text-white"
+      >
+        <Link href="/waitlist">
+          Request the Deck <ArrowRight className="h-5 w-5" />
+        </Link>
+      </Button>
+    </div>
+  </div>
+</section>
       </main>
     </div>
   )

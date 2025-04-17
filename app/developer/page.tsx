@@ -251,19 +251,26 @@ export default function DeveloperPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-24">
-          <div className="container">
-            <div className="max-w-3xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-6">Ready to make an impact?</h2>
-              <p className="text-xl mb-12">
-                Join us in building a product that helps people protect their reputations and careers.
-              </p>
-              <Button size="lg" className="gap-2 text-xl px-10 py-8 bg-[#0087C7] hover:bg-[#0087C7]/90 text-white">
-                Let's Build It Together <ArrowRight className="h-5 w-5" />
-              </Button>
-            </div>
-          </div>
-        </section>
+        {/* CTA Section */}
+<section className="py-24">
+  <div className="container">
+    <div className="max-w-3xl mx-auto text-center">
+      <h2 className="text-3xl font-bold mb-6">Ready to make an impact?</h2>
+      <p className="text-xl mb-12">
+        Join us in building a product that helps people protect their reputations and careers.
+      </p>
+      <Button 
+        asChild
+        size="lg" 
+        className="gap-2 text-xl px-10 py-8 bg-[#0087C7] hover:bg-[#0087C7]/90 text-white"
+      >
+        <Link href="/waitlist">
+          Let's Build It Together <ArrowRight className="h-5 w-5" />
+        </Link>
+      </Button>
+    </div>
+  </div>
+</section>
       </main>
     </div>
   )

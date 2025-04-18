@@ -27,9 +27,9 @@ export default function HomePage() {
   size="lg"
   className="gap-2 text-xl px-10 py-8 bg-white text-[#0087C7] hover:bg-white/90"
 >
-  <Link href="/waitlist">
+  <a href="https://formspree.io/f/xjkylnzr" target="_blank" rel="noopener noreferrer">
     Join the Waitlist <ArrowRight className="h-5 w-5" />
-  </Link>
+  </a>
 </Button>
         </div>
       </section>
@@ -48,9 +48,9 @@ export default function HomePage() {
   size="lg"
   className="gap-2 text-xl px-10 py-8 bg-white text-[#0087C7] hover:bg-white/90"
 >
-  <Link href="/waitlist">
+  <a href="https://formspree.io/f/xjkylnzr" target="_blank" rel="noopener noreferrer">
     Join the Waitlist <ArrowRight className="h-5 w-5" />
-  </Link>
+  </a>
 </Button>
         </div>
       </section>

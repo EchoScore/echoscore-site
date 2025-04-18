@@ -23,14 +23,14 @@ export default function HomePage() {
             EchoScore finds reputation risks in your old posts — before an employer, investor, or journalist does.
           </p>
           <Button
-            asChild
-            size="lg"
-            className="gap-2 text-xl px-10 py-8 bg-white text-[#0087C7] hover:bg-white/90"
-          >
-            <Link href="/waitlist">
-              Join the Waitlist <ArrowRight className="h-5 w-5" />
-            </Link>
-          </Button>
+  asChild
+  size="lg"
+  className="gap-2 text-xl px-10 py-8 bg-white text-[#0087C7] hover:bg-white/90"
+>
+  <Link href="https://formspree.io/f/xjkylnzr">
+    Join the Waitlist <ArrowRight className="h-5 w-5" />
+  </Link>
+</Button>
         </div>
       </section>
 
@@ -44,14 +44,14 @@ export default function HomePage() {
             find it first.
           </p>
           <Button
-            asChild
-            size="lg"
-            className="gap-2 text-xl px-10 py-8 bg-[#0087C7] hover:bg-[#0087C7]/90 text-white"
-          >
-            <Link href="/waitlist">
-              Get Scanned <ArrowRight className="h-5 w-5" />
-            </Link>
-          </Button>
+  asChild
+  size="lg"
+  className="gap-2 text-xl px-10 py-8 bg-white text-[#0087C7] hover:bg-white/90"
+>
+  <Link href="https://formspree.io/f/xjkylnzr">
+    Join the Waitlist <ArrowRight className="h-5 w-5" />
+  </Link>
+</Button>
         </div>
       </section>
     </main>
